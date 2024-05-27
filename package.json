@@ -17,7 +17,7 @@
     "react": "^18",
     "react-dom": "^18",
     "viem": "^2.9.28",
-    "@tanstack/react-query": "^4.29.7",
+    "@tanstack/react-query": "^5.0.0",
     "@tanstack/query-core": "^4.29.14",
     "@apollo/client": "^3.7.16",
     "graphql": "^16.6.0",
