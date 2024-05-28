@@ -24,11 +24,7 @@ const nextConfig = {
       },
     ]
   },
-future: { webpack5: true }
+
 }
 
-future: { webpack5: true }
-
 module.exports = nextConfig
-
-future: { webpack5: true }
