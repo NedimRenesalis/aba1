@@ -6,11 +6,7 @@ const nextConfig = {
       net: false,
       tls: false
     }
-
-module.exports = {
-webpack5: false,
-}
-    
+  
     config.externals.push(
       'pino-pretty',
       'lokijs',
@@ -32,7 +28,3 @@ webpack5: false,
 }
 
 module.exports = nextConfig
-
-module.exports = {
-webpack5: false,
-}
