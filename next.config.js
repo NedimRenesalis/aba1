@@ -6,6 +6,8 @@ const nextConfig = {
       net: false,
       tls: false
     }
+
+     webpack: (config, { isServer }) => { config.resolve.alias['@'] = path.resolve(__dirname, '.'); return config; },
   
     config.externals.push(
       'pino-pretty',
